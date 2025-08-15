@@ -2,20 +2,20 @@ const gameBoard = document.getElementById('game-board');
 const timerElement = document.getElementById('timer');
 const movesElement = document.getElementById('moves');
 
-// Images are inside "images" folder
+
 const logos = [
-  'images/img1.jpg',
-  'images/img2.jpg',
-  'images/img3.jpg',
-  'images/img4.jpg',
-  'images/img5.jpg',
-  'images/img6.jpg'
+  'Images/img1.jpg',
+  'Images/img2.jpg',
+  'Images/img3.jpg',
+  'Images/img4.jpg',
+  'Images/img5.jpg',
+  'Images/img6.jpg'
 ];
 
 let cardsArray = [...logos, ...logos];
 cardsArray.sort(() => 0.5 - Math.random());
 
-// Create cards
+
 cardsArray.forEach(logo => {
   const card = document.createElement('div');
   card.classList.add('card');
@@ -26,7 +26,7 @@ cardsArray.forEach(logo => {
         <img src="${logo}" alt="Car Logo" onerror="console.error('❌ Missing logo image:', this.src)">
       </div>
       <div class="card-back">
-        <img src="images/back.jpg" alt="Back" onerror="console.error('❌ Missing back image:', this.src)">
+        <img src="Images/back.jpg" alt="Back" onerror="console.error('❌ Missing back image:', this.src)">
       </div>
     </div>
   `;
@@ -34,7 +34,7 @@ cardsArray.forEach(logo => {
   gameBoard.appendChild(card);
 });
 
-// Attach click events AFTER creating cards
+
 document.querySelectorAll('.card').forEach(card =>
   card.addEventListener('click', flipCard)
 );
