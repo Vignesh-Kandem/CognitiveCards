@@ -33,4 +33,4 @@ cd CognitiveCards
 
 ## 🖼 Project Screenshot
 
-![CognitiveCards Game Interface](assets/screenshot.png)"
+![CognitiveCards Game Interface](assets/screenshot.png)
