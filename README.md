@@ -33,4 +33,4 @@ cd CognitiveCards
 
 ## 🖼 Project Screenshot
 
-![CognitiveCards Game Interface](assets/screenshot.png)" add the demo link in view demo
+![CognitiveCards Game Interface](assets/screenshot.png)"
