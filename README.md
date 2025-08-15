@@ -2,7 +2,7 @@
 
 Welcome to *CognitiveCards*, an engaging and interactive memory card game built entirely with HTML, CSS, and JavaScript! Test your memory skills by flipping cards, matching pairs, and aiming for the highest score.
 
-## View Demo
+## View Demo...👇
 
 [**Play the Game Here**](https://vignesh-kandem.github.io/CognitiveCards/)
 
